@@ -46,6 +46,10 @@
     <!-- Make the build reproducible, see https://maven.apache.org/guides/mini/guide-reproducible-builds.html -->
     <!-- Automatically updated by Maven Release Plugin -->
     <project.build.outputTimestamp>2023-01-01T00:00:00Z</project.build.outputTimestamp>
+
+    <!-- protoc -->
+    <protoc>${env.PROTOC}</protoc>
+    <protoc.version>${protobuf.version}</protoc.version>
   </properties>
 
   <!-- These attributes specify that the URLs should be inherited by the modules as is, to avoid constructing
