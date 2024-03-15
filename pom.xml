@@ -36,6 +36,9 @@
   </modules>
 
   <properties>
+    <guava.version>33.0.0-jre</guava.version>
+    <protobuf.version>3.25.3</protobuf.version>
+    <error-prone.version>2.26.1</error-prone.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.release>7</maven.compiler.release>
     <maven.compiler.testRelease>11</maven.compiler.testRelease>
@@ -293,7 +296,7 @@
               <path>
                 <groupId>com.google.errorprone</groupId>
                 <artifactId>error_prone_core</artifactId>
-                <version>2.25.0</version>
+                <version>${error-prone.version}</version>
               </path>
             </annotationProcessorPaths>
           </configuration>

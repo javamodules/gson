@@ -50,7 +50,7 @@
     <dependency>
       <groupId>com.google.errorprone</groupId>
       <artifactId>error_prone_annotations</artifactId>
-      <version>2.25.0</version>
+      <version>${error-prone.version}</version>
     </dependency>
 
     <dependency>
@@ -66,7 +66,7 @@
     <dependency>
       <groupId>com.google.guava</groupId>
       <artifactId>guava-testlib</artifactId>
-      <version>33.0.0-jre</version>
+      <version>${guava.version}</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
