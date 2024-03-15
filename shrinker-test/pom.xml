@@ -162,6 +162,8 @@
                   <excludes>
                     <!-- Ignore duplicate files in dependencies -->
                     <exclude>META-INF/MANIFEST.MF</exclude>
+                    <!-- Ignore duplicate MRJAR module classes -->
+                    <exclude>META-INF/versions/*/module-info.class</exclude>
                   </excludes>
                 </filter>
               </filters>
